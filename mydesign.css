@@ -1,0 +1,207 @@
+/*mybrowsercss*/
+body{
+  background-image: url(./security.);
+}
+.mytiltle{
+  text-align:center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+   
+   #withdraw{
+    position: relative;
+    top: 150px;
+    left: 100px;
+    height:50px;
+    width:400px;
+    margin-top:20px;
+    border-style:solid;
+    border-radius:30px;
+    border-color:black;
+    background-color:blue;
+    color:white;
+    outline:none;
+   }
+   #withdraw:hover{
+    background-color:#9B9B9B;
+    }
+
+   #deposit{
+    position: relative;
+    top: 150px;
+    left: 15cm;
+    height:50px;
+    width:400px;
+    margin-top:20px;
+    border-style:solid;
+    border-radius:30px;
+    border-color:black;
+    background-color:blue;
+    color:white;
+    outline:none;
+   }
+   #deposit:hover{
+    background-color:#9B9B9B;
+    }
+
+   #exit{
+    position: relative;
+    top: 450px;
+    right: 270px;
+    height:50px;
+    width:400px;
+    margin-top:20px;
+    border-style:solid;
+    border-radius:30px;
+    border-color:black;
+    background-color:crimson;
+    color:white;
+    outline:none;
+    }
+
+    #exit:hover{
+    background-color:#9B9B9B;
+    }
+    #securityimg{
+      width: 100%;
+    }
+    body {
+      background-image: url("./backgrounds/security.jpg");
+     }
+/*mywithdrawpagecss*/
+.withdrawtitle{
+  text-align: center;
+}
+#twenty{
+  position: relative;
+  top: 150px;
+  left: 10cm;
+  height:100px;
+  width:100px;
+  border-style:solid;
+  border-color:black;
+  background-color:blue;
+  color:white;
+  outline:none;
+ }
+#twenty:hover{
+  background-color:#9B9B9B;
+  }
+  
+  #fifty{
+    position: relative;
+    top: 150px;
+    left: 10cm;
+    height:100px;
+    width:100px;
+    border-style:solid;
+    border-color:black;
+    background-color:blue;
+    color:white;
+    outline:none;
+   }
+   #fifty:hover{
+    background-color:#9B9B9B;
+    }
+   
+    #seventy{
+      position: relative;
+      top: 150px;
+      left: 20cm;
+      height:100px;
+      width:100px;
+      border-style:solid;
+      border-color:black;
+      background-color:blue;
+      color:white;
+      outline:none;
+     }
+     #seventy:hover{
+      background-color:#9B9B9B;
+      }
+
+      #onehundred{
+        position: relative;
+        top: 50px;
+        left: 652px;
+        height:100px;
+        width:100px;
+        border-style:solid;
+        border-color:black;
+        background-color:blue;
+        color:white;
+        outline:none;
+       }
+       #onehundred:hover{
+        background-color:#9B9B9B;
+        }
+        #gobackwithdraw{
+          position: relative;
+          top: 300px;
+          background-color: red;
+        }
+/*mydepositecss*/
+#depositnumber{
+  position: relative;
+  top: 300px;
+  left: 500px;
+  width: 350px;
+  height: 50px;
+}
+#depositconfirm{
+  position: relative;
+  top: 292px;
+  left: 450px;
+  width: 100px;
+  height: 58px;
+}
+#depositconfirm:hover{
+  background-color:#9B9B9B;
+  }
+/*mysigncss*/
+.signtitle{
+  text-align: center;
+}
+.signforms{
+  position: relative;
+  top: 70px;
+  left: 600px;
+}
+#name{
+  width: 250px;
+  height: 30px;
+}
+#lastname{
+  width: 250px;
+  height: 30px;
+}
+#email{
+  width: 250px;
+  height: 30px;
+}
+#password{
+  width: 250px;
+  height: 30px;
+}
+.mysignsubmit{
+  position: relative;
+  left: 100px;
+}
+#gobackdeposit{
+  position: relative;
+  top: 500px;
+  background-color: red;
+}
+/*mylogincss*/
+#logintitle{
+  text-align: center;
+}
+#myloginsubmit{
+  position: relative;
+  left: 100px;
+}
+#gobacklogin{
+  position: relative;
+  top: 200px;
+  left: 400px;
+  background-color: red;
+}

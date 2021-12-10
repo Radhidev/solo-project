@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="mydesign.css" type="text/css"/>
+<title>Document</title>
+</head>
+<body>
+<div id="sign">
+<input type="time">
+<input type="date">
+<h1 class="signtitle">WELCOME TO ATM MACHINE</h1>
+<h4 class="signtitle">most secure atm in the world</h4>
+<div class="signforms">
+<input type="text" name="fullname" id="name" placeholder="fullname"><br>
+<input type="number" name="balance" id="lastname" placeholder="balance"><br>
+<input type="email" name="email" id="email" placeholder="example@hotmail.fr"><br>
+<input type="password" name="password" id="password" placeholder="password"><br>
+<input class="mysignsubmit"  type="submit"><br>
+<button id="already">if you already have account press here</button>
+</div>
+</div>
+<div id="login">
+<h1 id="logintitle">please enter your account</h1>
+<div class="signforms">
+<input type="email" name="email" id="email" placeholder="example@hotmail.fr"><br>
+<input type="password" name="password" id="password" placeholder="password"><br>
+<input id="myloginsubmit" type="submit">
+</div>
+<button id="gobacklogin" > <--GoBack</button>
+</div>
+<div id="myatm">
+<h1 class="mytiltle">PLEASE SELECT WHAT YOU DESIRE</h1>
+<button id="withdraw">Withdraw</button>
+<button id="deposit">Deposit</button>
+<button id="exit">Exit</button>
+</div>
+<div id="mydeposit">
+<input type="number" id="depositnumber" placeholder="PLEASE WRITE AMOUNT">
+<button id="depositconfirm">confirm deposit</button>
+<button id="gobackdeposit"> <--GoBack</button>
+</div>
+<div id="mywithdraw">
+<h1 class="withdrawtitle">PLEASE SELECT THE AMOUNT YOU DESIRE</h1>
+<button id="twenty">20TND</button><br>
+<button id="fifty">50TND</button>
+<button id="seventy">70TND</button>
+<button id="onehundred">100TND</button>
+<button id="gobackwithdraw"> <--GoBack</button>   
+</div>
+<script src="mysigncode.js"></script>
+<script src="mycode.js"></script>
+
+</body>
+</html>
